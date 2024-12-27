@@ -1,0 +1,35 @@
+#todowrapper{
+    padding: 15px;
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    gap: 15px;
+    text-align: center;
+    text-transform: capitalize;
+}
+#todowrapper>section{
+    padding: 10px;
+    background-color: rgb(239, 238, 238);
+}
+#todowrapper>section:hover{
+    box-shadow: 5px 5px 5px rgb(74, 74, 74);
+    transition: 0.5s;
+}
+#todowrapper>section>h1{
+    font-size: 25px;
+    color: rgb(30, 12, 149);
+}
+#todowrapper>section>button{
+    padding: 9px;
+    margin: 15px 10px;
+    border-radius: 3px;
+    border: none;
+    background-color:magenta;
+    color: white;
+    text-transform: capitalize;
+}
+#todowrapper>section>button:hover{
+    background-color: chartreuse;
+    color: black;
+    box-shadow: 2px 3px 3px grey;
+}
+
